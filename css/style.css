@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+}
+
+nav#nav_stiky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px 0px;
+}
+
+nav.sticky{
+    padding: 10px 0px !important;
+    background: #000000a8 !important;
+    color: #fff !important;
+}
+
+nav.sticky a{
+    color: #fff !important;
+}
+
+
+
+span#span {
+    padding: 5px;
+    background: #45ca45;
+    border-radius: 100px;
+    color: #fff;
+    margin-right: 5px;
+    font-weight: 400;
+}
+
+
+.carousel-item img{
+width: 100%;
+height: 93vh;
+}
+
+
+
+.about_aria{
+	padding: 70px 0;
+}
+
+.img-cous{
+	width: 100%;
+	max-height: 280px;
+
+}
+
+
+
+
+.services_img{
+	width: 100%;
+	height: 100%;
+}
+
+.offer_aria{
+	background: #0DCAF0;
+}
+
+.marg {
+    margin-top: 4px !important;
+}
+
+.buton_margin, svg.bi.bi-arrow-right-circle{
+	 
+    margin-bottom: 5px;
+
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+#navbar-example{
+	position: relative;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+/*responsive*/
+
+
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
